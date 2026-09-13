@@ -1,0 +1,17 @@
+SOYO Mesaj Yardımcısı v3.0
+
+- Otomasyon servisi sıfırdan yazıldı.
+- Durum makinesi: LIST -> OPENING_CHAT -> CHAT_READY -> VERIFYING_SEND -> RETURNING.
+- AccessibilityNodeInfo nesneleri adımlar arasında saklanmıyor.
+- Tek coalesced tick/watchdog akışı kullanılıyor; delayed callback zincirleri yok.
+- Son 8 saat işlenen kişiler kalıcı tutuluyor.
+- Tam otomatik aç/kapa anında transient state sıfırlanıyor.
+- Sohbet başlığı listedeki kişiyle eşleşmeden mesaj gönderilmiyor.
+- Yeni sohbet accessibility ağacı takılırsa küçük otomatik nudge uygulanıyor.
+- Gönder düğmesine sohbet başına en fazla bir kabul edilmiş otomatik dokunuş yapılıyor.
+- Gönderim sonucu belirsizse duplicate öncelikli davranılıp kişi tekrar açılmıyor.
+- Mevcut kullanıcı taslağı korunuyor ve kişi atlanıyor.
+- Liste kaydırma ACTION_SCROLL_FORWARD + gesture fallback olarak yeniden yazıldı.
+- Arayüz tamamen yenilendi; canlı durum ve tekrar koruması sayacı eklendi.
+- İşlenen geçmişini temizleme düğmesi eklendi.
+- Sürüm: 3.0 / versionCode 30.

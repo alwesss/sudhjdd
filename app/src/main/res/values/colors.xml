@@ -1,0 +1,13 @@
+<resources>
+    <color name="bg">#F4F6FA</color>
+    <color name="surface">#FFFFFFFF</color>
+    <color name="surface_alt">#F8FAFC</color>
+    <color name="text_primary">#152238</color>
+    <color name="text_secondary">#667085</color>
+    <color name="primary">#635BFF</color>
+    <color name="primary_pressed">#5148E8</color>
+    <color name="success">#159A63</color>
+    <color name="warning">#C97A12</color>
+    <color name="danger">#C43D4B</color>
+    <color name="stroke">#E2E8F0</color>
+</resources>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SOYO Mesaj Yardımcısı</string>
+    <string name="accessibility_service_label">SOYO Mesaj Yardımcısı</string>
+    <string name="accessibility_description">SOYO öneriler ekranında sohbetleri algılar, kişi adını doğrular ve seçtiğin ayarlara göre mesajı hazırlar veya otomatik gönderir.</string>
+</resources>

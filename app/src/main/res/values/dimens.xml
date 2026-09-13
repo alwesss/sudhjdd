@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="screen_pad">18dp</dimen>
+    <dimen name="card_pad">16dp</dimen>
+    <dimen name="card_radius">18dp</dimen>
+</resources>
